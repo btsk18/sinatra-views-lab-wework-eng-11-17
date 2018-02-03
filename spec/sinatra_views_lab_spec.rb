@@ -23,9 +23,9 @@ describe App do
     #   expect(last_response.status).to eq(200)
     # end
 
-    it 'renders a template called "goodbye.erb" ' do
-      expect(last_response.body).to include("Goodbye Joe")
-    end
+    # it 'renders a template called "goodbye.erb" ' do
+    #   expect(last_response.body).to include("Goodbye Joe")
+    # end
   end
   describe 'GET /date' do
     before do
